@@ -87,3 +87,16 @@ body {
     object-fit: cover;
     border-radius: 50%;
   }
+
+  /* search contact */
+  .search-container {
+    position: relative;
+  }
+  .search-result {
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    display: none;
+  }
